@@ -19,7 +19,23 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
+  padding: 16px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size:larger;
 }
 
 .icon {
